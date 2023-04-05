@@ -1,0 +1,28 @@
+@charset 'UTF-8';
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+table{
+    width: 500px;
+    padding-bottom: 30px;
+}
+#tabela3{
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+caption{
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+th{
+        border: 1px solid black;
+        padding: 10px;
+        text-align: center;
+}
+td{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
