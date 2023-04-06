@@ -17,7 +17,10 @@
         th , td{
             border: 1px solid black;
             padding: 10px;
-            }
+        }
+        col.cnome{
+            background-color: lightgray;
+        }
     </style>
 </head>
 <body>
@@ -25,12 +28,18 @@
     <table>
         <caption>Tabela 1</caption>
         <thead>
-            <th>Nome</th>
-            <th>Sexo</th>
-            <th>Idade</th>
-            <th>Profissão</th>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
         </thead>
         <tbody>
+            <colgroup>
+                <col class="cnome">
+                <col class="csexo">
+                <col class="cidade">
+                <col class="cprof">
+            </colgroup>
             <tr>
                 <td>Ana Maria</td>
                 <td>F</td>
@@ -60,6 +69,12 @@
                 <td>F</td>
                 <td>39</td>
                 <td>Médica</td>
+            </tr>
+            <tr>
+                <td>Otávio</td>
+                <td>M</td>
+                <td>12</td>
+                <td>Nutricionista</td>
             </tr>
         </tbody>
     </table>
